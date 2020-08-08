@@ -17,5 +17,6 @@ def grade(grade)
 end
 def grade(grade)
   @roster[grade]
+  name.sort!
 end
 end
