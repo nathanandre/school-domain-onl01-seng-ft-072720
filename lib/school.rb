@@ -9,4 +9,7 @@ class School
     @roster[grade] ||= []
     @roster[grade] << name
   end
+def add_student(grade)
+  @roster[grade] 
+end
 end
