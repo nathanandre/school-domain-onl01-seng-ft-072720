@@ -9,14 +9,14 @@ class School
     @roster[name] ||= []
     @roster[name] << name
   end
-def add_student(grade)
-  @roster[grade] 
-end
+#def add_student(grade)
+  #@roster[grade] 
+#end
 def grade(grade)
   @roster[grade]
 end
-def grade(grade)
-  @roster[grade]
-  name.sort!
-end
+# def grade(grade)
+#   @roster[grade]
+#   name.sort!
+# end
 end
