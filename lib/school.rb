@@ -5,7 +5,7 @@ class School
     @name = name 
     @roster = {}
   end
-  def add_student(grade)
+  def add_student(name)
     @roster[grade] ||= []
     @roster[grade] << name
   end
