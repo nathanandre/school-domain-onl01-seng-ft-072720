@@ -16,6 +16,7 @@ def grade(grade)
   @roster[grade]
 end
 def sort
+  @roster. each do ||
 end 
 # def grade(grade)
 #   @roster[grade]
